@@ -1,3 +1,24 @@
+# EventHub – Catalogue d'événements
+
+Application Angular 21 (standalone) qui permet de consulter les événements d'une
+association étudiante (ateliers, conférences, sport), d'afficher leurs détails,
+de filtrer la liste par catégorie et de gérer une sélection de favoris.
+Les données sont définies dans le code TypeScript .
+
+## Versions utilisées
+
+- Angular 21 (CLI 21.2.27)
+- Node.js [version : tape `node -v`]
+- npm [version : tape `npm -v`]
+- TypeScript [version : tape `ng version`]
+
+## Installation et lancement
+
+```bash
+git clone https://github.com/yasmine-zerzeri/eventhub-angular21-zerzeri-yasmine
+cd eventhub-angular21-zerzeri-yasmine
+npm install
+ng serve
 # EventhubAngular21ZerzeriYasmine
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.27.
@@ -54,6 +75,19 @@ ng e2e
 
 Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
 
-## Additional Resources
 
+## Captures d'écran
+Liste des evenements :
+<img width="1192" height="852" alt="Capture d&#39;écran 2026-10-16 110631" src="https://github.com/user-attachments/assets/574e8ded-0b83-417f-ba9c-18cf87d78b8e" />
+
+Page avec détails :
+<img width="1162" height="688" alt="Capture d&#39;écran 2026-10-16 110558" src="https://github.com/user-attachments/assets/5d201b16-d82f-4b41-b621-c5f352b19439" />
+
+Page Not Found : 
+<img width="1120" height="421" alt="image" src="https://github.com/user-attachments/assets/580dda16-85cf-4f6b-85f8-c564394333ca" />
+
+Version Mobile :
+<img width="483" height="752" alt="Capture d&#39;écran 2026-10-16 111929" src="https://github.com/user-attachments/assets/11bc70c7-35cd-49e7-9d2e-10aaab1900f0" />
+
+## Additional Resources
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
