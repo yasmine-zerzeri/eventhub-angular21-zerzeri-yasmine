@@ -1,1 +1,10 @@
-<p>event-details works!</p>
+@if (event(); as e) {
+  <img [src]="e.imageUrl" [alt]="e.title" />
+  <h2>{{ e.title }}</h2>
+  <p>{{ e.category }} · {{ e.date | date: 'fullDate' }} · {{ e.place }}</p>
+  <p>{{ e.description }}</p>
+  <p>{{ e.price === 0 ? 'Gratuit' : (e.price | currency: 'TND') }}</p>
+} @else {
+  <p>Événement introuvable</p>
+}
+<a routerLink="/events">← Retour à la liste</a>

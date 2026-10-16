@@ -1,4 +1,3 @@
-<p>event-card works!</p>
 <article class="card">
   <img [src]="event().imageUrl" [alt]="event().title" />
   <span class="badge">{{ event().category | uppercase }}</span>
@@ -11,4 +10,5 @@
   <button [class.active]="isFavorite()" (click)="toggle.emit()">
     @if (isFavorite()) { ★ Retirer des favoris } @else { ☆ Ajouter aux favoris }
   </button>
+  <a [routerLink]="['/events', event().id]">Voir les détails</a>
 </article>

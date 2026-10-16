@@ -1,15 +1,16 @@
 import { Component, input, output } from '@angular/core';
 import { CurrencyPipe, DatePipe, UpperCasePipe } from '@angular/common';
+import { RouterLink } from '@angular/router';
 import { EventItem } from '../../models/event.model';
 
 @Component({
   selector: 'app-event-card',
-  imports: [DatePipe, CurrencyPipe, UpperCasePipe],
+  imports: [DatePipe, CurrencyPipe, UpperCasePipe, RouterLink],
   templateUrl: './event-card.html',
   styleUrl: './event-card.css',
 })
 export class EventCard {
-  event = input.required<EventItem>();   // received from the parent
-  isFavorite = input(false);             // received from the parent
-  toggle = output<void>();               // tells the parent "button clicked"
+  event = input.required<EventItem>();   // reçu du parent
+  isFavorite = input(false);             // reçu du parent
+  toggle = output<void>();               // prévient le parent d'un clic
 }

@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
+import { RouterOutlet } from '@angular/router';
 import { Header } from './components/header/header';
-import { EventList } from './components/event-list/event-list';
 
 @Component({
   selector: 'app-root',
-  imports: [Header, EventList],
+  imports: [RouterOutlet, Header],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
