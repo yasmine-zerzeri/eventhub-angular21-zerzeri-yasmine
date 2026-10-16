@@ -86,6 +86,7 @@ Page avec détails :
 Page Not Found : 
 <img width="1120" height="421" alt="image" src="https://github.com/user-attachments/assets/580dda16-85cf-4f6b-85f8-c564394333ca" />
 
+---
 Version Mobile :
 <img width="483" height="752" alt="Capture d&#39;écran 2026-10-16 111929" src="https://github.com/user-attachments/assets/11bc70c7-35cd-49e7-9d2e-10aaab1900f0" />
 
